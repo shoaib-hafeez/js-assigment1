@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sing Up Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sign-up">
+        <form action="JavaScript:void(0)" class="form" onsubmit="done()">
+          <h2>Sign Up</h2>
+          <h3>its quick and easy</h3>
+          <br />
+          <hr />
+          <br />
+          <input
+            type="text"
+            placeholder="First Name"
+            required
+            id="firstName"
+          />
+          <input
+            type="text"
+            placeholder="Sure Name"
+            required
+            id="sureName"
+          /><br />
+          <input
+            class="email"
+            type="email"
+            placeholder="Mobile number or email address"
+            id="email"
+            required
+          /><br />
+          <input
+            class="email"
+            type="password"
+            placeholder="New password"
+            required
+            id="password"
+          /><br />
+          <br />
+          <h4>Date of Birth ?</h4>
+          <input type="date" id="dob" />
+          <br /><br />
+          <h4>Gender ?</h4>
+
+          <input type="radio" name="gender" id="Male" value="Male" />
+          Male
+          <input type="radio" name="gender" id="Female" value="Female" />
+          Female
+
+          <input
+            type="radio"
+            name="gender"
+            id="Custom"
+            value="Custom"
+          />Custom <br />
+          <br />
+          <button class="btn" type="submit">Register</button> <br />
+          <br />
+          <p>
+            By clicking Sign Up you agree to our
+            <span>Terms Data Policy.</span> and <span>Cookie Policy.</span>you
+            <br />
+            may recive SMS notification from us and csn opt out at any time.
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

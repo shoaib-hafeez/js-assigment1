@@ -86,7 +86,7 @@ var z = --y; //ans is 49
 var x = 50;
 var y = x++;
 
-//chapter #
+//chapter # 7
 
 var calculatedNum = 2 + 2 * 6; // ans is 14
 
@@ -280,12 +280,7 @@ if (a == b && c != d) {
 
 
 
-length);
 
-// for loop
 
-for( var i = 0 (i <='''[[[]]]
-\\\\ 4 i++))
 
-}
 
